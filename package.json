@@ -6,5 +6,9 @@
   "version": "1.0.0",
   "main": "./index.js",
   "author": "zk922 <zhangk922@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^4.4.26",
+    "webpack": "^4.29.6"
+  }
 }
