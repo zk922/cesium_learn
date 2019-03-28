@@ -6,5 +6,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: "js/[hash].bundle.js"
   },
-  mode: "development"
+  mode: "development",
+  devtool: ""
 };

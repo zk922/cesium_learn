@@ -4,10 +4,7 @@ const config = require('./webpack.config');
 
 let compiler = webpack(config);
 
-compiler.watch({
-  aggregateTimeout: 300,
-  poll: undefined
-}, function (err, stats) {
+compiler.run(function (err, stats) {
   if (err) {
     console.error(err);
     return;
