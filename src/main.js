@@ -1,3 +1,3 @@
-let cesium = require('cesium');
+let cesium = require('cesium/Source/Cesium');
 
 console.log(cesium);
